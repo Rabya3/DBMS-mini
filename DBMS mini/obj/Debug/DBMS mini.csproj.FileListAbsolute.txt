@@ -1,0 +1,9 @@
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\bin\Debug\DBMS mini.exe.config
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\bin\Debug\DBMS mini.exe
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\bin\Debug\DBMS mini.pdb
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\obj\Debug\DBMS mini.csprojResolveAssemblyReference.cache
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\obj\Debug\DBMS_mini.AddStudent.resources
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\obj\Debug\DBMS_mini.Properties.Resources.resources
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\obj\Debug\DBMS mini.csproj.GenerateResource.Cache
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\obj\Debug\DBMS mini.exe
+c:\users\rabya\documents\visual studio 2015\Projects\DBMS mini\DBMS mini\obj\Debug\DBMS mini.pdb
