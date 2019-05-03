@@ -16,7 +16,7 @@ namespace DBMS_mini
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AddStudent());
+           Application.Run(new DashboardSystem());
         }
     }
 }

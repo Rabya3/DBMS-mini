@@ -46,16 +46,111 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddStudent.cs">
+    <Compile Include="AddAssesment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddStudent.Designer.cs">
-      <DependentUpon>AddStudent.cs</DependentUpon>
+    <Compile Include="AddAssesment.Designer.cs">
+      <DependentUpon>AddAssesment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssessmentComponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssessmentComponent.Designer.cs">
+      <DependentUpon>AssessmentComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CloForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloForm.Designer.cs">
+      <DependentUpon>CloForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardSystem.Designer.cs">
+      <DependentUpon>DashboardSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance.Designer.cs">
+      <DependentUpon>Attendance.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet6.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddStudent.resx">
-      <DependentUpon>AddStudent.cs</DependentUpon>
+    <Compile Include="Rubric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubric.Designer.cs">
+      <DependentUpon>Rubric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rubriclevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubriclevel.Designer.cs">
+      <DependentUpon>Rubriclevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentEvalutions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentEvalutions.Designer.cs">
+      <DependentUpon>StudentEvalutions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPortal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentPortal.Designer.cs">
+      <DependentUpon>StudentPortal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAssesment.resx">
+      <DependentUpon>AddAssesment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssessmentComponent.resx">
+      <DependentUpon>AssessmentComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloForm.resx">
+      <DependentUpon>CloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardSystem.resx">
+      <DependentUpon>DashboardSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance.resx">
+      <DependentUpon>Attendance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +161,95 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Rubric.resx">
+      <DependentUpon>Rubric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rubriclevel.resx">
+      <DependentUpon>Rubriclevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentEvalutions.resx">
+      <DependentUpon>StudentEvalutions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentPortal.resx">
+      <DependentUpon>StudentPortal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ProjectBDataSet.xsc">
+      <DependentUpon>ProjectBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet.xss">
+      <DependentUpon>ProjectBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet1.xsc">
+      <DependentUpon>ProjectBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet1.xss">
+      <DependentUpon>ProjectBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet2.xsc">
+      <DependentUpon>ProjectBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet2.xss">
+      <DependentUpon>ProjectBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet3.xsc">
+      <DependentUpon>ProjectBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet3.xss">
+      <DependentUpon>ProjectBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet4.xsc">
+      <DependentUpon>ProjectBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet4.xss">
+      <DependentUpon>ProjectBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet5.xsc">
+      <DependentUpon>ProjectBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet5.xss">
+      <DependentUpon>ProjectBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet6.xsc">
+      <DependentUpon>ProjectBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet6.xss">
+      <DependentUpon>ProjectBDataSet6.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
